@@ -16,7 +16,7 @@ app.use(
     cors({
         origin: [
             "http://localhost:4200",
-            "https://blog-app-client-gwsm.vercel.app/"
+            "https://blog-app-client-gwsm.vercel.app"
         ],
         credentials: true,
     })
