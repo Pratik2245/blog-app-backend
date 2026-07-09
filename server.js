@@ -13,6 +13,7 @@ const userRoutes =
     require("./routes/userRoutes");
 
 app.use(
+
     cors({
         origin: [
             "http://localhost:4200",
